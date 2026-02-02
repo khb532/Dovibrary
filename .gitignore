@@ -1,0 +1,70 @@
+# ========================================
+# Python
+# ========================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+.env
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# PyInstaller
+*.spec
+
+# Test / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# mypy
+.mypy_cache/
+
+# ========================================
+# Mp3Convert project specific
+# ========================================
+
+# FFmpeg binaries (download via setup_ffmpeg.py)
+Python/Mp3Convert/bin/*.exe
+
+# Downloaded mp3 files
+Python/Mp3Convert/mp3/*
+!Python/Mp3Convert/mp3/downloadhere
+
+# Temp files
+Python/Mp3Convert/temp/*
+!Python/Mp3Convert/temp/temphere
+
+# ========================================
+# IDE / Editor
+# ========================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ========================================
+# OS
+# ========================================
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ========================================
+# Logs / Temp
+# ========================================
+*.log
+temp/
+tmp/
+*.bak
