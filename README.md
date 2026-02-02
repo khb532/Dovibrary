@@ -2,15 +2,14 @@
 
 개인 유틸리티 및 도구 모음 저장소.
 
-## 프로젝트
+## 구조
 
-### Python/Server
-로컬 서버 프로젝트.
-
-### Python/Mp3Convert
-YouTube 영상을 MP3로 변환하는 도구.
-- `yt-dlp` 기반
-- FFmpeg 자동 설치 스크립트 포함 (`setup_ffmpeg.py`)
+```
+Dovibrary/
+└── Python/
+    ├── Server/
+    └── Mp3Convert/
+```
 
 ## 설치
 
